@@ -3,3 +3,4 @@
 - `npx create-next-app@latest .`
 - `npx shadcn@latest init`
 - `npx shadcn@latest add button`
+- `npx shadcn@latest add select input`

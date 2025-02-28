@@ -29,7 +29,7 @@
   --border: hsl(20 5.9% 90%);
   --input: hsl(20 5.9% 90%);
   --ring: hsl(20 14.3% 4.1%);
-  --radius: hsl(0.5rem);
+  --radius: 0.5rem;
   --chart-1: hsl(12 76% 61%);
   --chart-2: hsl(173 58% 39%);
   --chart-3: hsl(197 37% 24%);
@@ -109,5 +109,14 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@layer utilities {
+  .header-button {
+    @apply cursor-pointer p-1 border border-transparent hover:border-white rounded-[2px];
+  }
+  .h1-bold {
+    @apply text-2xl font-bold lg:text-3xl;
   }
 }
