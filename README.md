@@ -4,3 +4,5 @@
 - `npx shadcn@latest init`
 - `npx shadcn@latest add button`
 - `npx shadcn@latest add select input`
+- `npx shadcn@latest add carousel`
+- `npm i embla-carousel-autoplay`
